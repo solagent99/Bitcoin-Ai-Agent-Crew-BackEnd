@@ -1,8 +1,8 @@
-# aibtcdev-backend
+# bitcoin-ai-agent-crew-backend
 
 ## Disclaimer
 
-aibtc.dev is not liable for any lost, locked, or mistakenly sent funds. This is alpha software—use at your own risk. Any STX sent to you is owned by you, the trader, and may be redeemed, including profits or losses, at the end of the aibtc.dev Champions Sprint (~5 days). By participating, you accept that aibtc.dev is not responsible for any product use, costs, taxes incurred from trading STX or any other digital asset, or any other liability.
+bitcoin-ai-agent is not liable for any lost, locked, or mistakenly sent funds. This is alpha software—use at your own risk. Any STX sent to you is owned by you, the trader, and may be redeemed, including profits or losses, at the end of the bitcoin-ai-agent Champions Sprint (~5 days). By participating, you accept that aibtc.dev is not responsible for any product use, costs, taxes incurred from trading STX or any other digital asset, or any other liability.
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ There are two ways to run the backend locally: using Conda (recommended for deve
 
 ```bash
 git clone [repository-url]
-cd aibtcdev-backend
+cd bitcoin-ai-agent-crew-backend
 git submodule init
 git submodule update --remote
 ```
@@ -50,8 +50,8 @@ source ~/.bashrc # for bash
 2. Create and activate a new conda environment:
 
 ```bash
-conda create --name aibackend python=3.12
-conda activate aibackend
+conda create --name bitcoin-ai-agent-crew-backend python=3.12
+conda activate bitcoin-ai-agent-crew-backend
 ```
 
 3. Install Python dependencies:
