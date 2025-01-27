@@ -79,13 +79,13 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 1. Build the Docker image:
 
 ```bash
-docker build -t aibtcdev-backend .
+docker build -t bitcoin-ai-agent-crew-backend .
 ```
 
 2. Run the container:
 
 ```bash
-docker run -p 8000:8000 --env-file .env aibtcdev-backend
+docker run -p 8000:8000 --env-file .env bitcoin-ai-agent-crew-backend
 ```
 
 ### Verifying the Installation
